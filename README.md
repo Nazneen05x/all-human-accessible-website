@@ -20,7 +20,7 @@
 
 ## 💻 Gebruik
 
-## Bronnen
+## 🌐 Bronnen
 
 ## Licentie
 
