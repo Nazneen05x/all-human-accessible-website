@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>Dagboek</title>
+</head>
+<body>
+  <nav>
+
+    <!-- menu -->
+    <!-- main -->
+    <div class="main">
+    <div class="topbar">
+    <div class="toggle"><ion-icon name="menu-outline"></ion-icon>
+      <img src="./assets/Logo_socials_1200x1200.webp" alt="logo vini Mini" style="width: 50%;">
+    </div>
+   
+    </div>
+    <img src="./assets/MicrosoftTeams-image95fe675d7ce4c090d121e90a30aca265091222269f71d0b92a5616d25728cab4.png" alt="patroon " class="img-patroon" >
+    <div class="dagboek">
+      <h1>Dagboek</h1>
+      <p>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk<br>
+        advies voor jouw Mini geformuleerd kan worden.</p>
+      <button onclick="myFunction()" class="button button5">+<i class="fas fa-plus"></i></button>
+
+   </div>  
+    <div class="card">
+      <img src="./assets/christian-bowen-Qtbh5QM3m1I-unsplash.jpg" alt="" style="width: 34%;"> 
+      <div class="cardtekst">
+      <p>Christian Bowen</p>
+      
+      <ion-icon name="chevron-forward-outline" class="icon"></ion-icon>
+      </div>
+     </div>
+
+     <div class="card2">
+      <img src="./assets/jose-ibarra-ifM0755GnS0-unsplash.jpg" alt="" style="width: 34%;"> 
+      <div class="cardtekst">
+      <p>Jose Ibarra</p>
+      
+      <ion-icon name="chevron-forward-outline" class="icon"></ion-icon>
+      </div>
+     </div>
+     <form method="post" class="form" id="myDIV">
+     <div class="form-icon"><ion-icon name="person-circle-outline" style="font-size: 30px;"></ion-icon>
+      <h2>Nieuwe Mini</h2></div> 
+
+      <div class="input">
+      <input type="text" id="fname" name="fname" placeholder="Naam"><br>
+      </div>
+
+      <div class="input">
+      <input type="text" id="Aname" name="Aname" placeholder="Achternaam"><br>
+      </div>
+
+      <div class="input">
+      <input type="date" id="date" name="date"><br>
+      </div>
+
+      <div class="input">
+      <input type="text" id="text" name="text" placeholder="Opmerkingen"><br>
+      </div>
+   
+
+      <button>Toevoegen</button>
+
+      <button>Annuleren</button>
+
+     </form>
+
+
+    </div>
+    <!-- main -->
+
+
+    <!-- menu (list - divs) -->
+    <div class="container">
+    <div class="navigation">
+    <ul>
+    <li class="list">
+    <a href="#">
+    <span class="icon"><ion-icon name="egg-outline"></ion-icon></span>
+    <span class="title">Vini Mini</span>
+    </a>
+    </li>
+
+    <!-- Welkom pagina -->
+    <li class="list">
+    <a href="#">
+    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+    <span class="title">Welkom pagina</span>
+    </a>
+    </li>
+
+    <!-- Dagboek -->
+    <li class="list">
+    <a href="/the-client-case/dagboek.html">
+    <span class="icon">
+    <ion-icon name="book-outline"></ion-icon>
+    </span>
+    <span class="title">Dagboek</span>
+    </a>
+    </li>
+
+    <!-- Producten -->
+    <li class="list">
+    <a href="#">
+    <span class="icon"><ion-icon name="document-outline"></ion-icon></span>
+    <span class="title">Producten</span>
+    </a>
+    </li>
+
+    <!-- Test -->
+    <li class="list">
+    <a href="#">
+    <span class="icon"><ion-icon name="folder-outline"></ion-icon></span>
+    <span class="title">Test</span>
+    </a>
+    </li>
+
+    <!-- Account aanpassen -->
+    <li class="list">
+    <a href="#">
+    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+    <span class="title">Account aanpassen</span>
+    </a>
+    </li>
+
+    <!-- Uitloggen -->
+    <li class="list">
+    <a href="#">
+    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+    <span class="title">Uitloggen</span>
+    </a>
+    </li>
+    </ul> 
+    </div>
+    </div>
+ <!-- menu (list - divs) -->
+  
+  <!-- Javascript  -->
+  <!-- Installation icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Installation icon -->
+  <!-- Javascript  -->
+  <script>
+    // MenuToggle
+    let toggle = document.querySelector('.toggle');
+    let navigation = document.querySelector('.navigation');
+    let main = document.querySelector('.main');
+    toggle.onclick = function () {
+    navigation.classList.toggle('active');
+    main.classList.toggle('active');
+    }
+    // add hovered class in selected list item
+    let list = document.querySelectorAll('.navigation li');
+    function activelink() {
+    list.forEach((item) => item.classList.remove('hovered'));
+    this.classList.add("hovered");
+    }
+    list.forEach((item) => item.addEventListener('mouseover', activelink));
+
+    //form
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  </script>
+  </nav>
+  
+</body>
+</html>
