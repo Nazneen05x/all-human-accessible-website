@@ -1,4 +1,6 @@
-<h1> 🥜 </h1>
+<h1> Vini Mini 🥜 - All Human (Accessible) ♿ 🤓 </h1>
+
+![image](https://user-images.githubusercontent.com/112861261/201074585-9650353c-39bb-4d41-8b5a-42cbc342be93.png)
 
 
 <h2>📚 Inhoudsopgave</h2>
