@@ -35,7 +35,11 @@
 👩🏼‍💻👩🏾‍💻👨🏻‍💻👨🏼‍💻 Kenmerken
 </h2>
 
+Lijst met gebruikte tools en technieken 🛠️&🧰:
 
+<ul>
+<li>
+</ul>
 
 
 
