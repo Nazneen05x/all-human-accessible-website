@@ -15,6 +15,19 @@
 🗒️ Beschrijving
 </h2>
 
+<strong>Accessible ♿:</strong>
+
+<ul>
+<li><strong>Het doel:</strong> van deze sprint is een bestaande website, toegankelijk te maken. Ik heb geprobeerd om het persoonlijk platform (dagboek) van, Vini Mini toegankelijk te maken.</li>
+<li><strong>In ontwerpen:</strong> kan je lezen wat ik precies heb geïmplementeerd betreft toegankelijkheid.</li>
+<li><strong>Link naar ontwerpen:</strong>https://github.com/Nazneen05x/all-human-accessible-website/wiki/Ontwerpen-%F0%9F%8E%A8</li>
+</ul>
+
+<strong>Vini Mini 🥜:</strong>
+
+<ul>
+<li>Vini Mini is een start up en is opgericht door twee moeders, Vini Mini verkoopt producten om vroegtijdig allergenen te voorkomen.  Vini Mini wil in de toekomst hun assortiment verbreiden met meer allergenen en ze willen doorgroeien in heel Europa. Om dit allemaal te kunnen behalen, moet er fijne gebruiksvriendelijke componenten (website) gebouwd worden.</li>
+</ul>
 
 
 
