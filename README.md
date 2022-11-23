@@ -56,7 +56,9 @@ Lijst met gebruikte tools en technieken 🛠️ & 🧰:
 💻 Gebruik
 </h2>
 
+Het persoonlijk platform (dagboek) kan je op dit moment alleen bekijken op desktop. 
 
+<strong>Link naar persoonlijk platform:</strong> http://nazneen05-all-human-accessible-website.student.fdnd.nl/dagboek.html
 
 <h2>
 🌐 Bronnen
