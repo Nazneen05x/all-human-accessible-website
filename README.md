@@ -64,7 +64,15 @@ Het persoonlijk platform (dagboek) kan je op dit moment alleen bekijken op deskt
 🌐 Bronnen
 </h2>
 
+<ul>
 
+<li>https://www.tpgi.com/color-contrast-checker//</li>
+
+<li>https://github.com//</li>
+
+<li>https://www.google.nl/</li>
+
+</ul>
 
 
 
