@@ -35,12 +35,21 @@
 👩🏼‍💻👩🏾‍💻👨🏻‍💻👨🏼‍💻 Kenmerken
 </h2>
 
-Lijst met gebruikte tools en technieken 🛠️&🧰:
+Lijst met gebruikte tools en technieken 🛠️ & 🧰:
 
 <ul>
-<li>
+<li><strong>TOOLS 🧰:</strong></li>
+<li>Google lighthouse</li>
+<li>Color Contrast Analyser</li>
+<li>VSCode</li>
+<li>Laptop</li>
 </ul>
 
+<ul>
+<li><strong>GEBRUIKTE TECHNIEKEN 🛠️:</strong></li>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
 
 
 <h2>
